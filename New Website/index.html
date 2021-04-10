@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>New Website</title>
+</head>
+
+<body>
+  <section class="header">
+        <nav>
+            <a href="index.html"><img src="./eduford_img/logo.png" alt="Logo"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOGE</a></li>
+                    <li><a href="">CONTANT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Lorem, ipsum dolor.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur in nobis eveniet impedit? Harum quidem<br> tenetur assumenda ullam iste ipsa.</p>
+            <a href="" class="hero-btn">VIsit Us TO Know More</a>
+        </div>
+  </section>
+
+<!-- Course -->
+<section class="Course">
+    <h1>Lorem, ipsum dolor.</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum.</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>intermediate</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos architecto inventore reprehenderit minus dolores pariatur sapiente deleniti?</p>
+        </div>
+        <div class="course-col">
+           <h3>degree</h3>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos architecto inventore reprehenderit minus dolores pariatur sapiente deleniti?</p>
+        </div>
+        <div class="course-col">
+             <h3>Post gradution</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos architecto inventore reprehenderit minus dolores pariatur sapiente deleniti?</p>
+        </div>
+    </div>
+</section>
+
+<!-- campus -->
+<section class="campus">
+
+<h1>our clobal compus</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum.</p>
+
+<div class="row">
+
+    <div class="campus-col">
+        <img src="./eduford_img/london.png" alt="img">
+        <div class="layer">
+            <h3>London</h3>
+        </div>
+    </div>
+    <div class="campus-col">
+            <img src="./eduford_img/newyork.png" alt="img">
+            <div class="layer">
+                <h3>NEW YORK</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+                <img src="./eduford_img/washington.png" alt="img">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div>
+
+</div>
+
+</section>
+
+<!-- 49min -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<!-- ---------JS for Toggle Menu -->
+<script>
+        
+        var navlinks = document.getElementById("navlinks");
+
+        function showMenu(){
+            navlinks.style.right = "0";
+        }
+        function hideMenu(){
+            navlinks.style.right = "-2000px";
+        }
+
+</script>
+
+</body>
+
+</html>
